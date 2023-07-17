@@ -6,5 +6,63 @@ body {
     padding: 0px;
     width: 100%;
     height: 100vh;
-    background: #fff9ec;
+    background: #202124;
+}
+
+header {
+    height: 60px;
+    padding-top: 12px;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav #profile-picture img{
+    padding: 5px;
+    border-radius: 19px;
+}
+nav #profile-picture img:hover {
+    background-color: #303134;
+}
+
+nav #view-app-grid{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+#view-app-grid a {
+    margin: 0px;
+    padding: 0px;
+    width: 18px;
+    height: 18px;
+}
+nav #view-app-grid:hover {
+    background-color: #303134;
+}
+
+header #view-app-grid,
+header #profile-picture{
+    margin-right: 15px ;
+}
+header #view-app-grid {
+    margin-left: 10px;
+}
+
+header #image a,
+header #gmail a{
+    margin-right: 12px;
+    font-size: 13px;
+    font-family: 'Roboto', Arial,sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+header #image a:hover,
+header #gmail a:hover {
+    text-decoration: underline;
 }
