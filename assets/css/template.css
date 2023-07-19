@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial,sans-serif;
 }
 body {
     margin: 0px;
@@ -8,7 +9,7 @@ body {
     height: 100vh;
     background: #202124;
 }
-
+/*Header---------------------------*/
 header {
     height: 60px;
     padding-top: 12px;
@@ -57,8 +58,6 @@ header #image a,
 header #gmail a{
     margin-right: 12px;
     font-size: 13px;
-    font-family: 'Roboto', Arial,sans-serif;
-    font-weight: bold;
     text-decoration: none;
     color: #fff;
 }
@@ -66,3 +65,112 @@ header #image a:hover,
 header #gmail a:hover {
     text-decoration: underline;
 }
+/*Header---------------------------*/
+
+/*main-section-google--------------*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container #google-logo {
+    margin-top: 200px;
+}
+.container #google-logo img {
+    width: 272px;
+}
+
+.container .search-bar, 
+.container #buttons {
+    margin-top: 25px; 
+}
+.container .search-bar {
+    width: 590px;
+    height: 50px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 25px;
+    padding: 0px 15px 0px 15px;
+}
+.container .search-bar:hover,
+.container .search-bar:focus{
+    background-color: #303134;
+    border: none;
+    border: 0 none;
+}
+.container .search-bar input{
+    width: 420px;
+    height: 48px;
+    font-size: 16px;
+    background: #202124;
+    color: #fff;
+    border: 0 none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.container .search-bar input:hover,
+.container .search-bar input:focus {
+    background-color: #303134;
+}
+
+.search-bar #gl-icon {
+    margin-left: 10px;
+}
+.search-bar #k-icon,
+.search-bar #m-icon {
+    margin: 0px 10px 0px 10px;
+}
+
+.container button {
+    padding: 10px 18px ;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.container #b1 {
+    margin-right: 8px;
+}
+.container button:hover {
+    border: 1px solid #5f6368;
+    box-sizing: border-box;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*main-section-google--------------*/
+
+
+
+
+/*responsividade-------------------*/
+@media (max-width: 600px) {
+    .container #google-logo img {
+        width: 240px;
+    }
+    .container .search-bar {
+        width: 95%;
+    }
+    .container .search-bar input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .container #google-logo img {
+        width: 200px;
+    }
+    .container button {
+        padding: 8px 14px ;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+}
+/*responsividade-------------------*/
