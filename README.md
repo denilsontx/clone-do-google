@@ -3,7 +3,7 @@
 ## Sobre o projeto
 
 Esse é um clone do google, tive alguns problemas que consegui consertar e alguns que não. O erro que eu não consegui pensar em uma soluçao foi como colocar os icones dentro da barra 
-de pesquisa, vi alguns videos no YouTube mas não achei nenhum simples, mas fiz o meu melhor sozinho e sei que vou melhorar. (Site totalmente responsivel) (Atividade do curso B7Web)
+de pesquisa, vi alguns videos no YouTube mas não achei nenhum simples, mas fiz o meu melhor sozinho e sei que vou melhorar. (Site totalmente responsivo) (Atividade do curso B7Web)
 
 ### Link do projeto: _[https://denilsontx.github.io/clone-do-google/](https://denilsontx.github.io/clone-do-google/)_
 
