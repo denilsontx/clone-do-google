@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100vh;
     background: #202124;
+    color: #fff;
 }
 /*Header---------------------------*/
 header {
@@ -145,12 +146,82 @@ header #gmail a:hover {
     justify-content: space-between;
     align-items: center;
 }
+
 /*main-section-google--------------*/
 
+/*footer---------------------------*/
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+footer {
+    background-color: #171717;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+footer .bar {
+    width: 100%;
+    height: 1px;
+    background-color: #3c4043;
+}
+
+footer .div-footer-1,
+footer .div-footer-2,
+footer .div-footer-3 {
+    margin: 15px 30px 15px 30px;
+}
+footer .div-footer-2 a,
+footer .div-footer-3 a{
+    text-decoration: none;
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+footer .div-footer-2 {
+    max-width: 425px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 35px;
+}
+
+footer .div-footer-3 {
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 35px;
+}
+
+/*footer---------------------------*/
 
 
 /*responsividade-------------------*/
+@media (max-width: 1200px) {
+    .container3 {
+        justify-content: space-around;
+    }
+
+}
+
+
+@media (max-width: 860px) {
+    footer .div-footer-2 a,
+    footer .div-footer-3 a{
+        margin-right: 20px;
+        white-space: nowrap;
+    }
+    .container3 {
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 600px) {
     .container #google-logo img {
         width: 240px;
@@ -160,6 +231,16 @@ header #gmail a:hover {
     }
     .container .search-bar input{
         width: 100%;
+    }
+}
+
+@media (max-width: 495px) {
+    footer .div-footer-2{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    footer .div-footer-2 #margin-edit {
+        margin-top: 15px;
     }
 }
 
