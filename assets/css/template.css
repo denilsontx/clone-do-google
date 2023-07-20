@@ -264,5 +264,9 @@ footer .div-footer-3 {
         margin-top: 60px;
     }
 }
-
+@media (max-height: 600px) {
+    .container #google-logo {
+        margin-top: 0px;
+    }
+}
 /*responsividade-------------------*/
