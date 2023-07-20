@@ -258,4 +258,11 @@ footer .div-footer-3 {
         font-size: 12px;
     }
 }
+
+@media (max-height: 768px) {
+    .container #google-logo {
+        margin-top: 60px;
+    }
+}
+
 /*responsividade-------------------*/
