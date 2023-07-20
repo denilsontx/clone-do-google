@@ -182,6 +182,10 @@ footer .div-footer-3 a{
     color: #9aa0a6;
     font-size: 14px;
 }
+footer .div-footer-2 a:hover,
+footer .div-footer-3 a:hover{
+    text-decoration: underline;
+}
 
 footer .div-footer-2 {
     max-width: 425px;
@@ -240,7 +244,7 @@ footer .div-footer-3 {
         justify-content: space-around;
     }
     footer .div-footer-2 #margin-edit {
-        margin-top: 15px;
+        margin-top: 30px;
     }
 }
 
