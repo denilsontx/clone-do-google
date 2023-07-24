@@ -8,7 +8,7 @@ de pesquisa, vi alguns videos no YouTube mas não achei nenhum simples, mas fiz 
 ### Link do projeto: _[https://denilsontx.github.io/clone-do-google/](https://denilsontx.github.io/clone-do-google/)_
 
 ## Layout da Aplicação
-![print1](https://github.com/denilsontx/clone-do-google/assets/136747514/771bec75-0dfc-40cd-b323-b002c37868dc)
+![Capturar](https://github.com/denilsontx/clone-do-google/assets/136747514/fac4a47b-6ca5-4ed2-8979-9edb30486c0d)
 
 ## Tecnologias utilizadas:
 ### Front end
