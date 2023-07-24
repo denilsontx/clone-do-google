@@ -95,25 +95,25 @@ header #gmail a:hover {
     border-radius: 25px;
     padding: 0px 15px 0px 15px;
 }
-.container .search-bar:hover,
-.container .search-bar:focus{
+.container .search-bar:hover {
     background-color: #303134;
     border: none;
     border: 0 none;
 }
+
+.container .search-bar:active {
+    background-color: #303134;
+}
+
 .container .search-bar input{
     width: 420px;
     height: 48px;
     font-size: 16px;
-    background: #202124;
+    background-color: transparent;
     color: #fff;
     border: 0 none;
     box-shadow: 0 0 0 0;
     outline: 0;
-}
-.container .search-bar input:hover,
-.container .search-bar input:focus {
-    background-color: #303134;
 }
 
 .search-bar #gl-icon {
